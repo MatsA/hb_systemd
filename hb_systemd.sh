@@ -37,6 +37,7 @@ systemctl daemon-reload
 systemctl enable homebridge
 systemctl restart homebridge
 
+echo " " 
 echo "Showing status "  
 echo "--------------------------------------------------------------------"
 echo " "  
