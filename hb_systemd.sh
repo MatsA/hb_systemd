@@ -13,7 +13,7 @@ cat > /etc/systemd/system/homebridge.service <<EOL
 [Unit]
 Description=Node.js HomeKit Server 
 After=syslog.target network-online.target
-# Documentation=
+Documentation=https://pysselilivet.blogspot.com/2020/01/homebridge-autostart-made-simple.html
 
 [Service]
 Type=simple
@@ -30,7 +30,7 @@ WantedBy=multi-user.target
 EOL
 
 echo " "  
-echo "Starting deamon .... please wait"                     
+echo "Starting daemon .... please wait"                     
 echo " "  
 
 systemctl daemon-reload
